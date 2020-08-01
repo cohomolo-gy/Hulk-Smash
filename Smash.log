@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.23)  1 AUG 2020 02:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.23)  1 AUG 2020 15:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**Untitled.tex
-(./Untitled.tex
+**Smash.tex
+(./Smash.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
@@ -741,11 +741,11 @@ Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
-runsystem(uname -s > "Untitled.w18")...executed.
+runsystem(uname -s > "Smash.w18")...executed.
 
 
-(./Untitled.w18)
-runsystem(rm -- "Untitled.w18")...executed.
+(./Smash.w18)
+runsystem(rm -- "Smash.w18")...executed.
 
 )
 (/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.sty
@@ -779,7 +779,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks46
 \c@listing=\count186
 )
-runsystem(mkdir -p _minted-Untitled)...executed.
+runsystem(mkdir -p _minted-Smash)...executed.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/parskip/parskip.sty
@@ -1275,13 +1275,13 @@ LaTeX Info: Redefining \textlatin on input line 2089.
 \l@newzealand = a dialect from \language\l@british 
 ))
 \c@defn=\count356
-runsystem(which pygmentize && touch Untitled.aex)...executed.
+runsystem(which pygmentize && touch Smash.aex)...executed.
 
-runsystem(rm Untitled.aex)...executed.
+runsystem(rm Smash.aex)...executed.
 
 
-(./Untitled.aux)
-\openout1 = `Untitled.aux'.
+No file Smash.aux.
+\openout1 = `Smash.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
@@ -1299,7 +1299,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 71.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 71.
@@ -1383,10 +1383,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 71.
 LaTeX Info: Redefining \pageref on input line 71.
 LaTeX Info: Redefining \nameref on input line 71.
-
-(./Untitled.out) (./Untitled.out)
 \@outlinefile=\write7
-\openout7 = `Untitled.out'.
+\openout7 = `Smash.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 71.
@@ -1466,7 +1464,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-theorem-dic
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./Untitled.nav)
+)
+No file Smash.nav.
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 73.
@@ -1474,7 +1473,8 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-(./Untitled.toc) [2
+No file Smash.toc.
+[2
 
 ] [3
 
@@ -1482,8 +1482,7 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 102.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 102.
@@ -1502,7 +1501,7 @@ thkerncmss.
 ] [6
 
 ]
-<kadena.png, id=123, 78.3728pt x 86.0816pt>
+<kadena.png, id=57, 78.3728pt x 86.0816pt>
 File: kadena.png Graphic file (type png)
 <use kadena.png>
 Package pdftex.def Info: kadena.png  used on input line 120.
@@ -1512,7 +1511,7 @@ Package pdftex.def Info: kadena.png  used on input line 120.
  <./kadena.png>] [8
 
 ]
-<tender_hulk.jpg, id=138, 803.0pt x 803.0pt>
+<tender_hulk.jpg, id=73, 803.0pt x 803.0pt>
 File: tender_hulk.jpg Graphic file (type jpg)
 <use tender_hulk.jpg>
 Package pdftex.def Info: tender_hulk.jpg  used on input line 143.
@@ -1531,12 +1530,12 @@ Package pdftex.def Info: tender_hulk.jpg  used on input line 143.
 ] [14
 
 ]
-<product.png, id=173, 321.45094pt x 176.91093pt>
+<product.png, id=112, 321.45094pt x 176.91093pt>
 File: product.png Graphic file (type png)
 <use product.png>
 Package pdftex.def Info: product.png  used on input line 197.
 (pdftex.def)             Requested size: 96.43602pt x 53.07368pt.
-<product3.png, id=174, 399.74344pt x 247.67531pt>
+<product3.png, id=113, 399.74344pt x 247.67531pt>
 File: product3.png Graphic file (type png)
 <use product3.png>
 Package pdftex.def Info: product3.png  used on input line 197.
@@ -1548,12 +1547,12 @@ Package pdftex.def Info: product3.png  used on input line 197.
 ] [17
 
 ]
-<wedge.png, id=191, 277.035pt x 118.4425pt>
+<wedge.png, id=131, 277.035pt x 118.4425pt>
 File: wedge.png Graphic file (type png)
 <use wedge.png>
 Package pdftex.def Info: wedge.png  used on input line 222.
 (pdftex.def)             Requested size: 138.51715pt x 59.2211pt.
-<rose.png, id=192, 333.245pt x 331.2375pt>
+<rose.png, id=132, 333.245pt x 331.2375pt>
 File: rose.png Graphic file (type png)
 <use rose.png>
 Package pdftex.def Info: rose.png  used on input line 222.
@@ -1561,7 +1560,7 @@ Package pdftex.def Info: rose.png  used on input line 222.
  [18
 
  <./wedge.png> <./rose.png>]
-<torus_skeleton.png, id=198, 803.0pt x 1223.57124pt>
+<torus_skeleton.png, id=138, 803.0pt x 1223.57124pt>
 File: torus_skeleton.png Graphic file (type png)
 <use torus_skeleton.png>
 Package pdftex.def Info: torus_skeleton.png  used on input line 232.
@@ -1569,7 +1568,7 @@ Package pdftex.def Info: torus_skeleton.png  used on input line 232.
  [19
 
  <./torus_skeleton.png>]
-<identification_spaces.jpg, id=206, 452.69125pt x 297.11pt>
+<identification_spaces.jpg, id=146, 452.69125pt x 297.11pt>
 File: identification_spaces.jpg Graphic file (type jpg)
 <use identification_spaces.jpg>
 Package pdftex.def Info: identification_spaces.jpg  used on input line 242.
@@ -1584,15 +1583,27 @@ Package pdftex.def Info: identification_spaces.jpg  used on input line 242.
 ] [23
 
 ]
-\openout4 = `Untitled.vrb'.
+\openout4 = `Smash.vrb'.
 
- (./Untitled.vrb
-\openout5 = `Untitled.pyg'.
+ (./Smash.vrb
+\openout5 = `Smash.pyg'.
 
- (./_minted-Untitled/default-pyg-prefix.pygstyle) (./_minted-Untitled/default.p
-ygstyle)
-(./_minted-Untitled/F664A8A68B59D78C09436138405BC305650F8B41FF633B9ECC175FBA162
-10F60.pygtex
+runsystem(pygmentize -S default -f latex -P commandprefix=PYG > _minted-Smash/d
+efault-pyg-prefix.pygstyle)...executed.
+
+ (./_minted-Smash/default-pyg-prefix.pygstyle)
+runsystem(pygmentize -S default -f latex -P commandprefix=PYGdefault > _minted-
+Smash/default.pygstyle)...executed.
+
+
+(./_minted-Smash/default.pygstyle)
+runsystem(pygmentize -l haskell -f latex -P commandprefix=PYG -F tokenmerge -o 
+_minted-Smash/F664A8A68B59D78C09436138405BC3055FE6A3C600553A1617AAA25019B2E5E3.
+pygtex Smash.pyg)...executed.
+
+
+(./_minted-Smash/F664A8A68B59D78C09436138405BC3055FE6A3C600553A1617AAA25019B2E5
+E3.pygtex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
 )) [24
@@ -1602,66 +1613,86 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 ] [26
 
 ]
-\openout4 = `Untitled.vrb'.
+\openout4 = `Smash.vrb'.
 
- (./Untitled.vrb
-\openout5 = `Untitled.pyg'.
+ (./Smash.vrb
+\openout5 = `Smash.pyg'.
+
+runsystem(pygmentize -l haskell -f latex -P commandprefix=PYG -F tokenmerge -o 
+_minted-Smash/12C5C5127518ED2E3A55AA595D27DD0D5FE6A3C600553A1617AAA25019B2E5E3.
+pygtex Smash.pyg)...executed.
 
 
-(./_minted-Untitled/12C5C5127518ED2E3A55AA595D27DD0D650F8B41FF633B9ECC175FBA162
-10F60.pygtex)) [27
+(./_minted-Smash/12C5C5127518ED2E3A55AA595D27DD0D5FE6A3C600553A1617AAA25019B2E5
+E3.pygtex)) [27
 
 ] [28
 
 ]
-\openout4 = `Untitled.vrb'.
+\openout4 = `Smash.vrb'.
 
- (./Untitled.vrb
-\openout5 = `Untitled.pyg'.
+ (./Smash.vrb
+\openout5 = `Smash.pyg'.
+
+runsystem(pygmentize -l haskell -f latex -P commandprefix=PYG -F tokenmerge -o 
+_minted-Smash/4E84F242706EA88DB62371462CEFA69B5FE6A3C600553A1617AAA25019B2E5E3.
+pygtex Smash.pyg)...executed.
 
 
-(./_minted-Untitled/4E84F242706EA88DB62371462CEFA69B650F8B41FF633B9ECC175FBA162
-10F60.pygtex)) [29
+(./_minted-Smash/4E84F242706EA88DB62371462CEFA69B5FE6A3C600553A1617AAA25019B2E5
+E3.pygtex)) [29
 
 ] [30
 
 ] [31
 
 ]
-\openout4 = `Untitled.vrb'.
+\openout4 = `Smash.vrb'.
 
- (./Untitled.vrb
-\openout5 = `Untitled.pyg'.
+ (./Smash.vrb
+\openout5 = `Smash.pyg'.
+
+runsystem(pygmentize -l haskell -f latex -P commandprefix=PYG -F tokenmerge -o 
+_minted-Smash/072AAB39A336E9E95EAEEAD7B2D6C09A5FE6A3C600553A1617AAA25019B2E5E3.
+pygtex Smash.pyg)...executed.
 
 
-(./_minted-Untitled/072AAB39A336E9E95EAEEAD7B2D6C09A650F8B41FF633B9ECC175FBA162
-10F60.pygtex)) [32
+(./_minted-Smash/072AAB39A336E9E95EAEEAD7B2D6C09A5FE6A3C600553A1617AAA25019B2E5
+E3.pygtex)) [32
 
 ] [33
 
 ] [34
 
 ]
-\openout4 = `Untitled.vrb'.
+\openout4 = `Smash.vrb'.
 
- (./Untitled.vrb
-\openout5 = `Untitled.pyg'.
+ (./Smash.vrb
+\openout5 = `Smash.pyg'.
+
+runsystem(pygmentize -l haskell -f latex -P commandprefix=PYG -F tokenmerge -o 
+_minted-Smash/8831976916FD005F01332F25E11D655E5FE6A3C600553A1617AAA25019B2E5E3.
+pygtex Smash.pyg)...executed.
 
 
-(./_minted-Untitled/13DFCBF2FDA7A5CE8A65DE62F0B1EA9C650F8B41FF633B9ECC175FBA162
-10F60.pygtex)) [35
+(./_minted-Smash/8831976916FD005F01332F25E11D655E5FE6A3C600553A1617AAA25019B2E5
+E3.pygtex)) [35
 
 ] [36
 
 ]
-\openout4 = `Untitled.vrb'.
+\openout4 = `Smash.vrb'.
 
- (./Untitled.vrb
-\openout5 = `Untitled.pyg'.
+ (./Smash.vrb
+\openout5 = `Smash.pyg'.
+
+runsystem(pygmentize -l haskell -f latex -P commandprefix=PYG -F tokenmerge -o 
+_minted-Smash/8E4D5E5FDC84FB9CEE903F9D529F34865FE6A3C600553A1617AAA25019B2E5E3.
+pygtex Smash.pyg)...executed.
 
 
-(./_minted-Untitled/8E4D5E5FDC84FB9CEE903F9D529F3486650F8B41FF633B9ECC175FBA162
-10F60.pygtex)) [37
+(./_minted-Smash/8E4D5E5FDC84FB9CEE903F9D529F34865FE6A3C600553A1617AAA25019B2E5
+E3.pygtex)) [37
 
 ] [38
 
@@ -1699,41 +1730,48 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 ] [54
 
 ]
-<haskell_love.jpg, id=391, 401.5pt x 401.5pt>
+<haskell_love.jpg, id=340, 401.5pt x 401.5pt>
 File: haskell_love.jpg Graphic file (type jpg)
 <use haskell_love.jpg>
-Package pdftex.def Info: haskell_love.jpg  used on input line 502.
+Package pdftex.def Info: haskell_love.jpg  used on input line 506.
 (pdftex.def)             Requested size: 140.5271pt x 140.5271pt.
  [55
 
  <./haskell_love.jpg>]
 \tf@nav=\write8
-\openout8 = `Untitled.nav'.
+\openout8 = `Smash.nav'.
 
 \tf@toc=\write9
-\openout9 = `Untitled.toc'.
+\openout9 = `Smash.toc'.
 
 \tf@snm=\write10
-\openout10 = `Untitled.snm'.
+\openout10 = `Smash.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 505.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 505.
- (./Untitled.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 505.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 505.
-Package rerunfilecheck Info: File `Untitled.out' has not changed.
-(rerunfilecheck)             Checksum: 26D594622C40C8A7392795DD8C9BF8F0;881.
-runsystem(rm Untitled.pyg)...executed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 509.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 509.
+ (./Smash.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 509.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
+
+
+Package rerunfilecheck Warning: File `Smash.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Smash.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  26D594622C40C8A7392795DD8C9BF8F0;881.
+runsystem(rm Smash.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 35165 strings out of 492609
- 706391 string characters out of 6129048
- 805250 words of memory out of 5000000
- 38320 multiletter control sequences out of 15000+600000
+ 34980 strings out of 492609
+ 704426 string characters out of 6129048
+ 804450 words of memory out of 5000000
+ 38144 multiletter control sequences out of 15000+600000
  545595 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,11n,84p,775b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,11n,84p,772b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
@@ -1744,11 +1782,10 @@ usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-
-Output written on Untitled.pdf (55 pages, 631420 bytes).
+Output written on Smash.pdf (55 pages, 630383 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 374 compressed objects within 4 object streams
+ 412 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
  126 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

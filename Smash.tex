@@ -290,6 +290,7 @@ instance Monad Maybe where
  	Using this fact, we can draw a direct line from point-set topology and the objects we just discussed to Haskell types, using a general notion of "pointed", and looking to category theory and type arithmetic. 
 }
 
+
 \begin{frame}[fragile]
 	Products of pointed spaces have a straightforward calculus (technically, abusing RAPL/LAPC/Yoneda all over the place):  
 	
@@ -328,7 +329,7 @@ instance Monad Maybe where
 
 \frame
 {
-	Pointed coproducts are slightly easier. A pointed coproduct is a coproduct of pointed objects, but with the base point identified.
+	Pointed coproducts are slightly easier. A pointed coproduct is a coproduct of pointed objects, but with the base point identified. Intuition: attaching a basepoint to the usual coproduct diagrams.
 }
 
 \begin{frame}[fragile]
@@ -359,12 +360,12 @@ instance Monad Maybe where
 
 \begin{frame}[fragile]
 \begin{minted}{haskell}
-(Maybe a, Maybe b) / (Maybe (Either a b)
+(Maybe a, Maybe b) / Maybe (Either a b)
 -- notation
 ~ (1 + a) * (1 + b) / (1 + a + b)
 -- defn + reassociate
-~ (1 + a + b) + a*b / 1 + a + b
--- quotient (1 + a + b) - note that
+~ (1 + a + b) + a*b / (1 + a + b)
+-- quotient (1 + a + b) ~ * - note that
 -- this means 'identify to a point', not divide!
 ~ 1 + a*b
 ~ Maybe (a,b)
@@ -373,7 +374,7 @@ instance Monad Maybe where
 
 \frame
 {
-	This means to build the geometry, we need the following three datatypes (forgive the names)
+	This means to build the geometry above, we need the following three datatypes (forgive the names)
 }
 \begin{frame}[fragile]
 \begin{minted}{haskell}
@@ -390,9 +391,11 @@ data Smash a b = Nothing | Smash a b
 
 \frame
 {
-	CT Aside: When the ambient category is closed monoidal, smash products form their own special monoidal tensor internal to the category of pointed objects, with its own base point-preserving analogue to currying, uncurrying, and the usual distributivity over pointed coproducts and symmetry + associativity that one might expect. When the ambient category is additionally symmetric , the smash product is also symmetric.
+	CT Aside: When the ambient category is closed monoidal, smash products form a separate monoidal tensor in its category of pointed objects, with its own base point-preserving analogue to currying, uncurrying (see: basepoint-preserving function spaces), and the usual distributivity over pointed coproducts (Wedges) and symmetry + associativity that one might expect. When the ambient category is additionally symmetric , the smash product is also symmetric.
 	  
 }
+
+
 \section{What about These?}
 
 \frame
@@ -401,9 +404,10 @@ data Smash a b = Nothing | Smash a b
 	
 	\begin{itemize}
 		\item It's got no "basepoint" to speak of
-		\item There's no real good intuition for like the rest other than maybe "inclusive union"
-		\item How can we think of it beyond being a "convenient data type that kinda sorta fits with our ad hoc needs"?
-		\item Is it just missing its unit, like \textbf{Semigroup} vis \textbf{Monoid}?
+		\item There's no real good intuition for it, unlike the rest other than maybe "inclusive union"
+		\item It was originally developed to encapsulate "zippy" behavior.
+		\item How can we think of it beyond being a "convenient data type that fits with our ad hoc needs"?
+		\item Is \textbf{These} to the pointed product as \textbf{Semigroup} is to \textbf{Monoid}?
 	\end{itemize}
 }
 

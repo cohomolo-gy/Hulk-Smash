@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kr}{data} \PYG{k+kt}{These} \PYG{n}{a} \PYG{n}{b}
+	  \PYG{o+ow}{=} \PYG{k+kt}{This} \PYG{n}{a}
+	  \PYG{o}{|} \PYG{k+kt}{That} \PYG{n}{b}
+	  \PYG{o}{|} \PYG{k+kt}{These} \PYG{n}{a} \PYG{n}{b}
+\end{Verbatim}
