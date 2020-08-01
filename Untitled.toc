@@ -1,0 +1,15 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {2}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Who am I?}{4}{0}{1}
+\beamer@subsectionintoc {2}{2}{Why are we here?}{8}{0}{1}
+\beamer@subsectionintoc {2}{3}{And most importantly...}{9}{0}{1}
+\beamer@sectionintoc {3}{Some Geometry}{10}{0}{2}
+\beamer@subsectionintoc {3}{1}{Pointed spaces}{11}{0}{2}
+\beamer@subsectionintoc {3}{2}{Products and Coproducts}{14}{0}{2}
+\beamer@subsectionintoc {3}{3}{Quotient spaces}{17}{0}{2}
+\beamer@subsectionintoc {3}{4}{Smash products}{21}{0}{2}
+\beamer@sectionintoc {4}{Translation to Haskell}{22}{0}{3}
+\beamer@sectionintoc {5}{What about These?}{40}{0}{4}
+\beamer@sectionintoc {6}{Tying it all together}{49}{0}{5}
+\beamer@subsectionintoc {6}{1}{postlogue}{50}{0}{5}
+\beamer@subsectionintoc {6}{2}{fin}{55}{0}{5}

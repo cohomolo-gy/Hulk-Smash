@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{(}\PYG{k+kt}{Maybe} \PYG{n}{a}\PYG{p}{,} \PYG{k+kt}{Maybe} \PYG{n}{b}\PYG{p}{)} \PYG{o}{/} \PYG{p}{(}\PYG{k+kt}{Maybe} \PYG{p}{(}\PYG{k+kt}{Either} \PYG{n}{a} \PYG{n}{b}\PYG{p}{)}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} notation}
+\PYG{o}{\PYGZti{}} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{+} \PYG{n}{a}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{+} \PYG{n}{b}\PYG{p}{)} \PYG{o}{/} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{+} \PYG{n}{a} \PYG{o}{+} \PYG{n}{b}\PYG{p}{)}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} defn + reassociate}
+\PYG{o}{\PYGZti{}} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{+} \PYG{n}{a} \PYG{o}{+} \PYG{n}{b}\PYG{p}{)} \PYG{o}{+} \PYG{n}{a}\PYG{o}{*}\PYG{n}{b} \PYG{o}{/} \PYG{l+m+mi}{1} \PYG{o}{+} \PYG{n}{a} \PYG{o}{+} \PYG{n}{b}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} quotient (1 + a + b) \PYGZhy{} note that}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} this means \PYGZsq{}identify to a point\PYGZsq{}, not divide!}
+\PYG{o}{\PYGZti{}} \PYG{l+m+mi}{1} \PYG{o}{+} \PYG{n}{a}\PYG{o}{*}\PYG{n}{b}
+\PYG{o}{\PYGZti{}} \PYG{k+kt}{Maybe} \PYG{p}{(}\PYG{n}{a}\PYG{p}{,}\PYG{n}{b}\PYG{p}{)}
+\end{Verbatim}

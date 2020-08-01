@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kt}{Either} \PYG{p}{(}\PYG{k+kt}{Maybe} \PYG{n}{a}\PYG{p}{)} \PYG{p}{(}\PYG{k+kt}{Maybe} \PYG{n}{b}\PYG{p}{)}
+	\PYG{c+c1}{\PYGZhy{}\PYGZhy{} simplification of notation}
+	\PYG{o}{\PYGZti{}} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{+} \PYG{n}{a}\PYG{p}{)} \PYG{o}{+} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{+} \PYG{n}{b}\PYG{p}{)}
+	\PYG{c+c1}{\PYGZhy{}\PYGZhy{} basepoints are identified}
+	\PYG{c+c1}{\PYGZhy{}\PYGZhy{} via the pushout: a0 \PYGZlt{}\PYGZhy{} * \PYGZhy{}\PYGZgt{} b0}
+	\PYG{o}{\PYGZti{}} \PYG{l+m+mi}{1} \PYG{o}{+} \PYG{n}{a} \PYG{o}{+} \PYG{n}{b}
+	\PYG{c+c1}{\PYGZhy{}\PYGZhy{} assocativity}
+	\PYG{o}{\PYGZti{}} \PYG{l+m+mi}{1} \PYG{o}{+} \PYG{p}{(}\PYG{n}{a} \PYG{o}{+} \PYG{n}{b}\PYG{p}{)}
+	\PYG{o}{\PYGZti{}} \PYG{k+kt}{Maybe} \PYG{p}{(}\PYG{k+kt}{Either} \PYG{n}{a} \PYG{n}{b}\PYG{p}{)}
+\end{Verbatim}

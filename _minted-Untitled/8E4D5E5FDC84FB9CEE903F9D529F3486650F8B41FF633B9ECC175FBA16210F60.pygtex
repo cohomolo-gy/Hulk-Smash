@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kr}{data} \PYG{k+kt}{Can} \PYG{n}{a} \PYG{n}{b} \PYG{o+ow}{=} \PYG{k+kt}{Non} \PYG{o}{|} \PYG{k+kt}{One} \PYG{n}{a} \PYG{o}{|} \PYG{k+kt}{Eno} \PYG{n}{b} \PYG{o}{|} \PYG{k+kt}{Two} \PYG{n}{a} \PYG{n}{b}
+\PYG{k+kr}{data} \PYG{k+kt}{Wedge} \PYG{n}{a} \PYG{n}{b} \PYG{o+ow}{=} \PYG{k+kt}{Nada} \PYG{o}{|} \PYG{k+kt}{Here} \PYG{n}{a} \PYG{o}{|} \PYG{k+kt}{There} \PYG{n}{b}
+\PYG{k+kr}{data} \PYG{k+kt}{Smash} \PYG{n}{a} \PYG{n}{b} \PYG{o+ow}{=} \PYG{k+kt}{Nothing} \PYG{o}{|} \PYG{k+kt}{Smash} \PYG{n}{a} \PYG{n}{b}
+\end{Verbatim}
