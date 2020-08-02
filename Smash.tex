@@ -282,7 +282,7 @@ instance Monad Maybe where
 
 \frame
 {
-	The \textbf{Maybe} monad corresponds with the map $A \mapsto  A \sqcup *$, which can be thought of as "adjoining a basepoint" to $A$. We can consider $\mathbf{Maybe A}$ to be a "pointed object" in the precise that it is an object of \textbf{Hask} equipped with a disjoint basepoint. 
+	The \textbf{Maybe} monad corresponds with the map $A \mapsto  A \sqcup *$, which can be thought of as "adjoining a basepoint" to $A$. We can consider $\mathbf{Maybe} A$ to be a "pointed object" in the precise that it is an object of \textbf{Hask} equipped with a disjoint basepoint. 
 }
 
 \frame
@@ -453,7 +453,7 @@ However, there is an alternate encoding that is equivalent.
 
 \frame
 {
-	Note: this is "loose" in the sense that types are not sets and one must treat them like they are to make that equivalence work. In the first encoding, $(Int \rightarrow Int, id)$ is an object, but there's no type $A$ such that $A \sqcup * ~ Int \rightarrow Int$.
+	Note: this is "loose" in the sense that types are not sets and one must treat them like they are to make that equivalence work. In the first encoding, $(Int \rightarrow Int, id)$ is an object, but there's no type $A$ such that $A \sqcup * \sim Int \rightarrow Int$.
 }
 
 \frame
