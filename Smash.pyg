@@ -1,0 +1,3 @@
+data Can a b = Non | One a | Eno b | Two a b
+data Wedge a b = Nada | Here a | There b
+data Smash a b = Nothing | Smash a b
