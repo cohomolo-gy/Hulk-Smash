@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.23)  2 AUG 2020 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.23)  2 AUG 2020 13:01
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **Smash.tex
 (./Smash.tex
@@ -734,7 +733,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 69.
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/ifplatform/ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
@@ -742,11 +741,14 @@ Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
+runsystem(uname -s > "Smash.w18")...executed.
 
-Package ifplatform Warning: 
-    shell escape is disabled, so I can only detect \ifwindows.
 
-) (/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.sty
+(./Smash.w18)
+runsystem(rm -- "Smash.w18")...executed.
+
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.tex
 \integerpart=\count181
 \decimalpart=\count182
@@ -777,20 +779,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks46
 \c@listing=\count186
 )
-runsystem(mkdir -p _minted-Smash)...disabled (restricted).
+runsystem(mkdir -p _minted-Smash)...executed.
 
 
-
-./Smash.tex:6: Package minted Error: You must invoke LaTeX with the -shell-esca
-pe flag.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \usepackage
-               [parfill]{parskip}    		
-? 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
 )
@@ -1284,20 +1275,11 @@ LaTeX Info: Redefining \textlatin on input line 2089.
 \l@newzealand = a dialect from \language\l@british 
 ))
 \c@defn=\count356
-runsystem(which pygmentize && touch Smash.aex)...disabled (restricted).
+runsystem(which pygmentize && touch Smash.aex)...executed.
+
+runsystem(rm Smash.aex)...executed.
 
 
-
-./Smash.tex:71: Package minted Error: You must have `pygmentize' installed to u
-se this package.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 \begin{document}
-                     
-? 
 (./Smash.aux)
 \openout1 = `Smash.aux'.
 
@@ -1745,13 +1727,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 509.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
 Package rerunfilecheck Info: File `Smash.out' has not changed.
 (rerunfilecheck)             Checksum: 26D594622C40C8A7392795DD8C9BF8F0;881.
-runsystem(rm Smash.pyg)...disabled (restricted).
+runsystem(rm Smash.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 35174 strings out of 492609
- 706511 string characters out of 6129048
- 805068 words of memory out of 5000000
+ 35177 strings out of 492609
+ 706535 string characters out of 6129048
+ 805152 words of memory out of 5000000
  38325 multiletter control sequences out of 15000+600000
  546151 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1768,7 +1750,7 @@ usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on Smash.pdf (55 pages, 634096 bytes).
+Output written on Smash.pdf (55 pages, 634318 bytes).
 PDF statistics:
  467 PDF objects out of 1000 (max. 8388607)
  377 compressed objects within 4 object streams
