@@ -1,16 +1,16 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYG{k+kr}{data} \PYG{k+kt}{Maybe} \PYG{n}{a} \PYG{o+ow}{=} \PYG{k+kt}{Just} \PYG{n}{a} \PYG{o}{|} \PYG{k+kt}{Nothing}
-			
+
 \PYG{k+kr}{instance} \PYG{k+kt}{Functor} \PYG{k+kt}{Maybe} \PYG{k+kr}{where}
   \PYG{n}{fmap} \PYG{n}{f} \PYG{k+kt}{Nothing} \PYG{o+ow}{=} \PYG{k+kt}{Nothing}
   \PYG{n}{fmap} \PYG{n}{f} \PYG{p}{(}\PYG{k+kt}{Just} \PYG{n}{a}\PYG{p}{)} \PYG{o+ow}{=} \PYG{k+kt}{Just} \PYG{p}{(}\PYG{n}{f} \PYG{n}{a}\PYG{p}{)}
-			
+
 \PYG{k+kr}{instance} \PYG{k+kt}{Applicative} \PYG{k+kt}{Maybe} \PYG{k+kr}{where}
   \PYG{n}{pure} \PYG{o+ow}{=} \PYG{k+kt}{Just}
-		
+
   \PYG{k+kt}{Just} \PYG{n}{f} \PYG{o}{\PYGZlt{}*\PYGZgt{}} \PYG{n}{a} \PYG{o+ow}{=} \PYG{n}{fmap} \PYG{n}{f} \PYG{n}{a}
   \PYG{k+kt}{Nothing} \PYG{o}{\PYGZlt{}*\PYGZgt{}} \PYG{k+kr}{\PYGZus{}} \PYG{o+ow}{=} \PYG{k+kt}{Nothing}
-			
+
 \PYG{k+kr}{instance} \PYG{k+kt}{Monad} \PYG{k+kt}{Maybe} \PYG{k+kr}{where}
   \PYG{n}{return} \PYG{o+ow}{=} \PYG{k+kt}{Pure}
 
